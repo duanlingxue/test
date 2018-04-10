@@ -1,0 +1,83 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+li{
+  list-style: none;
+}
+html,body{
+  height:100%;
+  width:100%;
+  font-size: 16px;
+  color: #333;
+}
+/*容器 app*/
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  height:100%;
+  width:100%;
+}
+#app-head{
+  position: fixed;
+  height:0.4rem;
+  width: 100%;
+  background: #333;
+  text-align: center;
+  line-height: 0.4rem;
+  top: 0px;
+  z-index: 10000;
+  color: #fff;
+}
+#app-foot{
+  position: fixed;
+  bottom: 0px;
+  height:0.4rem;
+  width: 100%;
+  background: #f1efef;
+  display: flex;
+  justify-content: center;
+  z-index: 10000;
+  align-items: center;
+  color: #4170f5;
+}
+
+/*按钮*/
+.btn{
+  width: 0.7rem;
+  height: 0.3rem;
+  background: #9c71f4;
+  color:#fff;
+  border: 1px solid #4170f5;
+  border-radius: 5px;
+  outline: none;
+}
+button,input{
+  outline: none;
+}
+
+/*注册登录 p*/
+.p{
+  height: 0.5rem;
+  line-height: 0.5rem;
+  padding: 0.10rem 0;
+}
+.p label{
+  margin-right:0.1rem;
+}
+.p input{
+  height: 100%;
+  border: 1px solid #cdbfe9;
+  border-radius: 5px;
+}
+
+
+/**/
+.validate-error{
+  color: #f00!important;
+  font-size: 12px!important;
+}
